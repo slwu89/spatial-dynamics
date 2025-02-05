@@ -23,7 +23,7 @@ $$
 Note, in papers $K$ is given as `\mathcal{K}` but that command doesn't work on Github Markdown it seems. Oh well. $K$ is a matrix
 whose columns sum to 1 giving the probability of arriving at each destination patch (with the diagonal being 0s, as it is conditional on leaving).
 The vector $\sigma$ are the rates of leaving each patch. Therefore $\left(I-K\right) \cdot \mbox{diag}(\sigma)$ is the matrix describing net change
-in population due to movement. We then add $\mbox{\diag(g)}$, a matrix of mortality rates on the diagonal, to account for death.
+in population due to movement. We then add $\mbox{diag}(g)$, a matrix of mortality rates on the diagonal, to account for death.
 We we multiply on the right by the vector of populations at each patch, we get the rates of change in each population due to movement and mortality.
 
 A spatial version of the mosquito equation is:
