@@ -1,0 +1,21 @@
+Version: 1.0
+ProjectId: 2f3f887f-1122-4208-a72c-37e938a029ed
+
+RestoreWorkspace: No
+SaveWorkspace: No
+AlwaysSaveHistory: No
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+AutoAppendNewline: Yes
+StripTrailingWhitespace: Yes
+
+QuitChildProcessesOnExit: Yes
+
+ProjectName: spatial-dynamics-R
