@@ -36,3 +36,5 @@ Here, $\kappa$ is the net infectiousness of humans to mosquitoes in each patch. 
 This is much simpler than the formulation in the spatial dynamics paper because $X$ and $Z$ are just proportions of
 infected and infectious humans and mosquitoes, respectively, so there is no need to normalize by population sizes in the biting distribution matrix.
 We also assume for here that all human strata have equal propensity to be bitten.
+
+To spatialize the basic equation, I think we can apply the movement matrices seperately to the numerator and denominator of `m` (that is the mosy one to the numerator and the human one to the denominator). Just consider the denominator always one.
